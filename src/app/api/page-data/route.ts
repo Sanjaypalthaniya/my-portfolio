@@ -18,9 +18,9 @@ const contactBar = {
     },
     {
       type: "website",
-      label: "portfolio-sanjay-design.dev",
+      label: "My Portfolio",
       icon: "/images/web-icon.svg",
-      link: "https://portfolio-sanjay-design.dev"
+      link: "https://sanjay-choudhary-portfolio.vercel.app/"
     }
   ],
   socialItems: [
