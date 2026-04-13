@@ -19,11 +19,11 @@ const index = () => {
                         <p className="text-secondary font-normal max-w-md xl:max-w-xl">Senior UI/UX & Front-End Developer with 6+ years of experience in designing and developing modern, user-centric websites and web applications. Skilled in creating clean UI, intuitive UX, and high-performance front-end solutions using Figma, React, Next.js, and modern web technologies. Proven ability to collaborate with cross-functional teams and deliver business-focused digital products.
                         </p>
                     </div>
-                    <Image src={"/images/about-banner-img.jpg"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
+                    <img src={"/images/about-banner-img.jpg"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
                 </div>
             </div>
             <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
-                <Image src={"/images/about-banner-img.jpg"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1" />
+                <img src={"/images/about-banner-img.jpg"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1" />
             </div>
         </section>
     )

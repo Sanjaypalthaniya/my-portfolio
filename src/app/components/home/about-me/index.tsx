@@ -23,7 +23,7 @@ const AboutMe = () => {
 
                         <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
                             <div className="w-[303px] h-[440px] hidden lg:flex">
-                                <Image
+                                <img
                                     src="/images/about-banner-img.jpg"
                                     alt="about-banner"
                                     width={303}
