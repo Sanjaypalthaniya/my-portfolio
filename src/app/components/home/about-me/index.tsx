@@ -28,7 +28,7 @@ const AboutMe = () => {
                                     alt="about-banner"
                                     width={303}
                                     height={440}
-                                    className="w-full h-full"
+                                    className="w-full h-auto"
                                 />
                             </div>
 
