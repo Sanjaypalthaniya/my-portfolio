@@ -48,13 +48,13 @@ const workData = [
             icon: "/images/nextjs-icon.svg"
         }
     ],
-       liveUrl: "https://yourlivewebsite.com",
-        figmaUrl: "https://figma.com/yourdesignlink",
+       liveUrl: "https://inventring.com/",
+        figmaUrl: "",
     },
     {
-        image: "/images/work/elite-equine-marketplace-app.png",
-         hoverImage: "/images/work/elite-equine-marketplace-web.png",
-        title: "Elite Equine Marketplace",
+        image: "/images/work/Holiyay.png",
+         hoverImage: "/images/work/Holiyay.png",
+        title: "Holiyay",
        technologies: [
         {
             name: "Figma",
@@ -65,8 +65,8 @@ const workData = [
             icon: "/images/html-icon.svg"
         }
     ],
-    liveUrl: "https://yourlivewebsite.com",
-        figmaUrl: "https://figma.com/yourdesignlink",
+    liveUrl: "",
+        figmaUrl: "https://www.figma.com/design/bC3OmtV4sHTiBXhw39uDMl/Holiyay-Design-V2--JPLoft-?node-id=6592-65928&p=f&t=Piv4HhojVYo5b4Gh-0",
     },
     {
         image: "/images/work/inventring-app.png",
@@ -85,9 +85,9 @@ const workData = [
                 figmaUrl: "https://figma.com/yourdesignlink",
     },
     {
-        image: "/images/work/work-img-6.jpg",
-         hoverImage: "/images/work/work-img-1-hover.jpg",
-        title: "Mug Sticker Designing",
+        image: "/images/work/Advanced-Trichology.png",
+         hoverImage: "/images/work/Advanced-Trichology.png",
+        title: "Advanced-Trichology",
        technologies: [
         {
             name: "Figma",

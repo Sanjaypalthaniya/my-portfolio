@@ -3,10 +3,6 @@
 import Logo from "../logo";
 
 const Header = () => {
-    const handleDownloadPDF = () => {
-        window.print();
-    };
-
     return (
         <header className="navbar top-0 left-0 z-50 w-full absolute">
             <div className="container">
@@ -16,26 +12,25 @@ const Header = () => {
                         {/* Logo */}
                         <Logo />
 
-                        {/* Buttons next to logo */}
+                        {/* Buttons */}
                         <div className="flex flex-wrap items-center gap-2 sm:gap-3">
 
-                            {/* View Resume */}
+                            {/* Download Resume */}
                             <a
-                                href="#"
+                                href="/Sanjay_Choudhary_Resume.pdf" // 👈 public folder me file rakho
+                                download="Sanjay_Choudhary_Resume.pdf"
                                 className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm border border-primary rounded-full text-black hover:bg-primary hover:text-white transition-colors duration-300"
                             >
                                 Download PDF Resume
                             </a>
 
-                            {/* My Work */}
+                            {/* Portfolio */}
                             <a
                                 href="#work"
                                 className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm border border-primary rounded-full text-black hover:bg-primary hover:text-white transition-colors duration-300"
                             >
                                 View My Portfolio
                             </a>
-
-
 
                         </div>
                     </div>
